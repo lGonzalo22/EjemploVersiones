@@ -11,4 +11,30 @@ package ejemploversiones.entidades;
  */
 public class Producto {
     
+    
+    private String comida;
+    private int numero;
+
+    public Producto(String comida, int numero) {
+        this.comida = comida;
+        this.numero = numero;
+    }
+
+    public String getComida() {
+        return comida;
+    }
+
+    public void setComida(String comida) {
+        this.comida = comida;
+    }
+
+    public int getNumero() {
+        return numero;
+    }
+
+    public void setNumero(int numero) {
+        this.numero = numero;
+    }
+    
+    
 }
